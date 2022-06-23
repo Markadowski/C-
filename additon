@@ -1,0 +1,20 @@
+//Addition of two numbers
+
+#include <stdio.h>
+
+int main() {
+int y, z;
+int total;
+
+printf("Enter two number to add: \n");
+scanf("%d%d", &y, &z);
+
+total = y + z;
+
+printf("\nThe sum of the two numbers = %d", total);
+printf("\n");
+
+return 0;
+
+}
+
