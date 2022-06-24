@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()  {
+
+ int m, n, o;
+
+ for (m = 1; m < 3; m++)
+ {
+  for (n = 1; n < 3; n++)
+  {
+  for (o = 1; n < 3; o++)
+   {
+       printf("%d %d %d\n", m, n, o);
+       break;
+    }
+   }
+  }
+
+    return 0;
+}
